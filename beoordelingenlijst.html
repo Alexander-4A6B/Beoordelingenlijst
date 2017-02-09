@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            
+            #cijfer1 {
+                
+            }
+            
+            #cijfer2 {
+                position: absolute;
+                margin-top: 2%;
+                right: 86.8%;
+            }
+            
+            #knop2 {
+                position: absolute;
+                margin-top: 2%;
+                right: 80.7%;
+            }
+            
+            #resultaat {
+                position: absolute;
+                top: 9%;
+                height: 35%;
+                width: 20%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <input required type="number" id="cijfer1" name="cijfer1" placeholder="cijfer...">
+        <input required type="number" id="cijfer2" name="cijfer2" placeholder="cijfer...">
+        
+        <button id="knop1" onclick="haalCijfer1()">Toevoegen</button>
+        <button id="knop2" onclick="haalCijfer2()">Toevoegen</button>
+        
+        <div id="resultaat"></div>
+        
+        <script src="beoordelingenlijst.js"></script>
+        
+    </body>
+</html>
